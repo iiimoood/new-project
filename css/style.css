@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+}
+
+.navigation {
+  background: url("https://images.pexels.com/photos/2117937/pexels-photo-2117937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.list {
+  list-style-type: none;
+  text-align: right;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+}
+
+.list li {
+  display: inline;
+  margin-right: 30px;
+  font-weight: 700;
+}
+
+.navigation-text {
+  width: 70%;
+  color: black;
+  padding-top: 25px;
+}
+
+.navigation p {
+  color: yellow;
+  font-size: 25px;
+  font-weight: 500px;
+}
+
+header {
+  text-align: center;
+  margin-top: 90px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 70px;
+  font-weight: 1100;
+  margin: 20px;
+}
+
+.navigation button {
+  background: yellow;
+  color: black;
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+
+.services {
+  text-align: center;
+  height: 400px;
+  padding-top: 70px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 0.3;
+}
+
+h4 {
+  color: grey;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.services .bi {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  color: orange;
+  border-radius: 50%;
+  line-height: 50px;
+  border: orange solid;
+  padding: 10px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 0.3;
+}
+
+.services p {
+  color: grey;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 70px;
+  background: #e9e4e4;
+}
+
+.portfolio-element {
+  background-color: #fff;
+}
+
+.portfolio img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+
+.portfolio .col-4 {
+  margin-bottom: 40px;
+}
+
+.portfolio-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portfolio p {
+  color: grey;
+  margin-top: 0;
+}
+
+.portfolio h5 {
+  margin-bottom: 15px;
+}
+
+footer .col-md-8 i {
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  border-radius: 50%;
+  line-height: 50px;
+  background-color: black;
+  padding: 10px;
+  margin-right: 8px;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
+footer p {
+  color: grey;
+  font-weight: 600;
+}
+
+footer .col-md-8 {
+  padding-left: 55px;
+}
+
+@media (max-width: 768px) {
+  header h2 {
+    font-size: 40px;
+  }
+
+  header {
+    margin-top: 30px;
+  }
+
+  .services {
+    height: 800px;
+  }
+  .services .col-md-4 {
+    margin-bottom: 20px;
+  }
+
+  .portfolio-element {
+    margin-bottom: 25px;
+  }
+}
