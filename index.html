@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
     <link rel="stylesheet" href="vendor/bootstrap-grid.css" />
-    <link rel="stylesheet" href="css/style.scss" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
   </head>
   <body>
-    <section class="navigation">
+    <nav class="navigation">
       <div class="container navigation-text">
         <div class="row">
           <div class="col-3">
@@ -21,11 +21,11 @@
           </div>
           <div class="col-9">
             <ul class="list">
-              <li>HOME</li>
-              <li>SERVICES</li>
-              <li>PORTFOLIO</li>
-              <li>ABOUT</li>
-              <li>CONTACT</li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">PORTFOLIO</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">CONTACT</a></li>
             </ul>
           </div>
         </div>
@@ -37,14 +37,14 @@
           </div>
         </header>
       </div>
-    </section>
+    </nav>
     <section class="services">
       <div class="container">
         <h3>SERVICES</h3>
         <h4><i>Lorem ipsum dolor sit amet.</i></h4>
-        <div class="col-12">
+        <div class="col-md-12">
           <div class="row">
-            <div class="col-4">
+            <div class="col-md-4">
               <i class="bi bi-basket-fill"></i>
               <h5>E-commerce</h5>
               <p>
@@ -52,7 +52,7 @@
                 <br />Phasellus luctus.
               </p>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
               <i class="bi bi-laptop"></i>
               <h5>Responsive Web</h5>
               <p>
@@ -60,7 +60,7 @@
                 <br />Phasellus luctus.
               </p>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
               <i class="bi bi-lock"></i>
               <h5>Web Security</h5>
               <p>
@@ -77,64 +77,76 @@
         <h3>OUR PORTFOLIO</h3>
         <h4><i>Lorem ipsum dolor sit amet.</i></h4>
         <div class="row">
-          <div class="col-4">
-            <img
-              src="https://images.pexels.com/photos/1008206/pexels-photo-1008206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="image"
-            />
-            <div class="portfolio-text">
-              <h5>Ebony & Ivory</h5>
-              <p>Branding</p>
+          <div class="col-md-4">
+            <div class="portfolio-element">
+              <img
+                src="https://images.pexels.com/photos/1008206/pexels-photo-1008206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"
+              />
+              <div class="portfolio-text">
+                <h5>Ebony & Ivory</h5>
+                <p>Branding</p>
+              </div>
             </div>
           </div>
-          <div class="col-4">
-            <img
-              src="https://images.pexels.com/photos/264726/pexels-photo-264726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="image"
-            />
-            <div class="portfolio-text">
-              <h5>Smart Stationary</h5>
-              <p>Print Design</p>
+          <div class="col-md-4">
+            <div class="portfolio-element">
+              <img
+                src="https://images.pexels.com/photos/264726/pexels-photo-264726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"
+              />
+              <div class="portfolio-text">
+                <h5>Smart Stationary</h5>
+                <p>Print Design</p>
+              </div>
             </div>
           </div>
-          <div class="col-4">
-            <img
-              src="https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="image"
-            />
-            <div class="portfolio-text">
-              <h5>Clever Poster</h5>
-              <p>Print Design</p>
+          <div class="col-md-4">
+            <div class="portfolio-element">
+              <img
+                src="https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"
+              />
+              <div class="portfolio-text">
+                <h5>Clever Poster</h5>
+                <p>Print Design</p>
+              </div>
             </div>
           </div>
-          <div class="col-4">
-            <img
-              src="https://images.pexels.com/photos/914668/pexels-photo-914668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="image"
-            />
-            <div class="portfolio-text">
-              <h5>Vinyl Record</h5>
-              <p>Product Mock-up</p>
+          <div class="col-md-4">
+            <div class="portfolio-element">
+              <img
+                src="https://images.pexels.com/photos/914668/pexels-photo-914668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"
+              />
+              <div class="portfolio-text">
+                <h5>Vinyl Record</h5>
+                <p>Product Mock-up</p>
+              </div>
             </div>
           </div>
-          <div class="col-4">
-            <img
-              src="https://images.pexels.com/photos/794062/pexels-photo-794062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="image"
-            />
-            <div class="portfolio-text">
-              <h5>Treehouse Template</h5>
-              <p>Web Design</p>
+          <div class="col-md-4">
+            <div class="portfolio-element">
+              <img
+                src="https://images.pexels.com/photos/794062/pexels-photo-794062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"
+              />
+              <div class="portfolio-text">
+                <h5>Treehouse Template</h5>
+                <p>Web Design</p>
+              </div>
             </div>
           </div>
-          <div class="col-4">
-            <img
-              src="https://images.pexels.com/photos/932405/pexels-photo-932405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="image"
-            />
-            <div class="portfolio-text">
-              <h5>Burned Logo</h5>
-              <p>Branding</p>
+          <div class="col-md-4">
+            <div class="portfolio-element">
+              <img
+                src="https://images.pexels.com/photos/932405/pexels-photo-932405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="image"
+              />
+              <div class="portfolio-text">
+                <h5>Burned Logo</h5>
+                <p>Branding</p>
+              </div>
             </div>
           </div>
         </div>
@@ -143,16 +155,16 @@
     <footer class="footer">
       <div class="container">
         <div class="row flex-fill">
-          <div class="col-4">
+          <div class="col-md-4">
             <p>
               <i class="bi bi-c-circle"></i>Copyright 2014 FreebiesXpress.com
             </p>
           </div>
-          <div class="col-8">
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-pinterest"></i>
-            <i class="bi bi-google"></i>
+          <div class="col-md-8">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-pinterest"></i></a>
+            <a href="#"><i class="bi bi-google"></i></a>
           </div>
         </div>
       </div>
